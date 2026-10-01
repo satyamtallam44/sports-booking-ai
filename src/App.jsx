@@ -21,7 +21,7 @@ function App() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch('http://localhost:5001/api/bookings', {
+    const response = await fetch("/api/bookings", {
       method: "post",
       headers: {
         "Content-Type": "application/json"
